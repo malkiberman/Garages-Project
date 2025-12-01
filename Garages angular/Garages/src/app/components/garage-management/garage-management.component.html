@@ -8,7 +8,7 @@
         <p>טוען רשימת מוסכים מה-API הממשלתי...</p>
       </div>
 
-      <mat-form-field appearance="outline" class="full-width" *ngIf="!isLoadingExternal">
+      <mat-form-field  class="full-width" *ngIf="!isLoadingExternal">
         <mat-label>בחירת מוסכים להוספה</mat-label>
         <mat-select 
           [(ngModel)]="selectedGaragesCodes" 
@@ -42,10 +42,9 @@
   </div>
 
   <mat-card class="table-card mat-elevation-z3" *ngIf="!isLoadingSaved">
-  <mat-form-field appearance="outline" class="full-width filter-field">
+  <mat-form-field  class="full-width filter-field">
   <mat-label>סנן לפי שם, כתובת או מקצוע</mat-label>
   <input matInput (keyup)="applyFilter($event)" placeholder="הקלד לסינון..." #input>
-  <mat-icon matSuffix>search</mat-icon>
 </mat-form-field>
     
     <table 
