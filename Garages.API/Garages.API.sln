@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garages.API", "Garages.API\Garages.API.csproj", "{051FAE10-DAC2-4351-9CFC-CB0A1A51F696}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garages.Data", "Garages.Data\Garages.Data.csproj", "{A6883A85-4144-4441-A12E-D0D179B54E24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garages.Repositories", "Garages.Repositories\Garages.Repositories.csproj", "{C993E848-C2D3-4C29-87A3-940747FC5A0D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garages.Services", "Garages.Services\Garages.Services.csproj", "{34577134-1827-457C-9029-D8B0EB550AA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{C993E848-C2D3-4C29-87A3-940747FC5A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C993E848-C2D3-4C29-87A3-940747FC5A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C993E848-C2D3-4C29-87A3-940747FC5A0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34577134-1827-457C-9029-D8B0EB550AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34577134-1827-457C-9029-D8B0EB550AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34577134-1827-457C-9029-D8B0EB550AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34577134-1827-457C-9029-D8B0EB550AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
