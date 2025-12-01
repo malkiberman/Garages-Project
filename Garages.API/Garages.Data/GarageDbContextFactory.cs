@@ -9,9 +9,9 @@ namespace Garages.Data
         {
             var optionsBuilder = new DbContextOptionsBuilder<GarageDbContext>();
 
-            optionsBuilder.UseNpgsql("Host=localhost;Database=Garages;Username=postgres;");
+            optionsBuilder.UseNpgsql("User Id=postgres.rncjxqpqzhtsbqafeaww;Password=1234;Server=aws-1-ap-southeast-2.pooler.supabase.com;Port=5432;Database=postgres;SSL Mode=Require;Trust Server Certificate=true");
 
-            return new GarageDbContext(optionsBuilder.Options); // Fix for CS1729 and CS1061
+            return new GarageDbContext(optionsBuilder.Options); 
         }
     }
 }

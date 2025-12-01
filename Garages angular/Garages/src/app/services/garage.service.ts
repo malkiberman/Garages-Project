@@ -7,7 +7,7 @@ import { Garage } from '../models/garage.interface';
   providedIn: 'root'
 })
 export class GarageApiService {
-  private apiUrl = 'https://localhost:7181/api/Garage'; 
+  private apiUrl = 'https://garages-project-api.onrender.com/api/Garage'; 
 
   constructor(private http: HttpClient) { }
 
