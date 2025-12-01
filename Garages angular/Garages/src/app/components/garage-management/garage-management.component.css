@@ -1,0 +1,58 @@
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  direction: rtl; 
+}
+
+.full-width {
+  width: 100%;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  color: #6200ee;
+}
+
+.button-spinner {
+  margin-right: 10px; 
+}
+
+.selection-card {
+  margin-bottom: 20px;
+}
+
+.table-card {
+  padding: 20px;
+}
+
+.filter-field {
+  margin-bottom: 15px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #757575;
+}
+
+/* עיצוב הטבלה */
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mat-column-misparMosah {
+  width: 15%;
+}
+.mat-column-shemMosah {
+  width: 30%;
+}

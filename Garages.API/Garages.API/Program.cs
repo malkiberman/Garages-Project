@@ -18,6 +18,9 @@ builder.Services.AddCors(options =>
                         .AllowAnyHeader());
 });
 
+builder.Services.AddHttpClient();
+
+
 builder.Services.AddScoped<IGarageRepo, GarageRepo>();
 
 builder.Services.AddControllers();
@@ -28,6 +31,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

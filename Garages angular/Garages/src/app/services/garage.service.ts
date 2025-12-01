@@ -1,0 +1,25 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Garage } from '../models/garage.interface';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class GarageApiService {
+  private apiUrl = 'https://localhost:7181/api/Garage'; 
+
+  constructor(private http: HttpClient) { }
+
+  fetchGaragesFromExternalApi(): Observable<Garage[]> {
+    return this.http.get<Garage[]>(`${this.apiUrl}/LoadFromGov`);
+  }
+
+  getSavedGarages(): Observable<Garage[]> {
+    return this.http.get<Garage[]>(`${this.apiUrl}/GetAllGarages`);
+  }
+
+  addGarage(garage: Garage): Observable<any> {
+    return this.http.post(`${this.apiUrl}/AddGarage`, garage);
+  }
+}

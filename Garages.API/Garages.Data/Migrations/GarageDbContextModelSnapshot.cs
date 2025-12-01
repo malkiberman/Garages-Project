@@ -29,51 +29,43 @@ namespace Garages.Data.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("TESTIME")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("cod_miktzoa")
+                    b.Property<int>("CodMiktzoa")
                         .HasColumnType("integer");
 
-                    b.Property<int>("cod_sug_mosah")
+                    b.Property<int>("CodSugMosah")
                         .HasColumnType("integer");
 
-                    b.Property<string>("ktovet")
-                        .IsRequired()
+                    b.Property<string>("Ktovet")
                         .HasColumnType("text");
 
-                    b.Property<string>("menahel_miktzoa")
-                        .IsRequired()
+                    b.Property<string>("MenahelMiktzoa")
                         .HasColumnType("text");
 
-                    b.Property<string>("miktzoa")
-                        .IsRequired()
+                    b.Property<string>("Miktzoa")
                         .HasColumnType("text");
 
-                    b.Property<int>("mikud")
+                    b.Property<int>("Mikud")
                         .HasColumnType("integer");
 
-                    b.Property<int>("mispar_mosah")
+                    b.Property<int>("MisparMosah")
                         .HasColumnType("integer");
 
-                    b.Property<long>("rasham_havarot")
+                    b.Property<long>("RashamHavarot")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("shem_mosah")
-                        .IsRequired()
+                    b.Property<string>("ShemMosah")
                         .HasColumnType("text");
 
-                    b.Property<string>("sug_mosah")
-                        .IsRequired()
+                    b.Property<string>("SugMosah")
                         .HasColumnType("text");
 
-                    b.Property<string>("telephone")
-                        .IsRequired()
+                    b.Property<string>("Telephone")
                         .HasColumnType("text");
 
-                    b.Property<string>("yishuv")
-                        .IsRequired()
+                    b.Property<string>("Testime")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Yishuv")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
