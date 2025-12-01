@@ -3,6 +3,8 @@
   margin: 30px auto;
   padding: 20px;
   direction: rtl; 
+  font-family: Arial, sans-serif;
+  color: #229f3d;
 }
 
 .full-width {
@@ -15,29 +17,41 @@
   align-items: center;
   justify-content: center;
   min-height: 100px;
-  color: #6200ee;
+  color: #10ee00;
 }
 
 .button-spinner {
   margin-right: 10px; 
+  
 }
 
 .selection-card {
   margin-bottom: 20px;
+  color: #229f3d;
+  background-color: #10ee008b;
+  border-radius: 4px;
 }
 
 .table-card {
   padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #23a525;
+  border: #10ee00 2px solid;
 }
 
 .filter-field {
   margin-bottom: 15px;
+  color: #229f3d;
+  background-color: #10ee00;
+  border-radius: 4px;
 }
 
 .no-data {
   text-align: center;
   padding: 20px;
-  color: #757575;
+  color: #229f3d;
 }
 
 /* עיצוב הטבלה */
