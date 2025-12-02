@@ -11,7 +11,8 @@ Angular CLI
 dotnet restore - לשחזר את התלויות
 dotnet run להרצת הפרויקט
 
-בפרויקט  Angular 
+בפרויקט  Angular להריץ את הפקודות:
+
 npm install להתקין תלויות
 ng serve להריץ אפליקציה
 
